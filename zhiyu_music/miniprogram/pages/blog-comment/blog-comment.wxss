@@ -1,0 +1,58 @@
+/* pages/blog-comment/blog-comment.wxss */
+.comment{
+  background: white;
+}
+.comment-title{
+  display: flex;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+
+.comment-portrait{
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+}
+
+.comment-text{
+  margin-left: 20rpx;
+  margin-top: -10rpx;
+}
+.comment-nickname{
+  font-size: 32rpx;
+}
+.comment-content{
+  padding:20rpx 30rpx;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}
+
+.comment-img{
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+}
+
+.img{
+  width: 230rpx;
+  height: 230rpx;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.comment-img .img:nth-child(3){
+  margin-right: 0;
+}
+
+.comment-time{
+  font-size: 24rpx;
+  color: #ccc;
+}
+
+/* .blog-ctrl{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 68rpx;
+} */

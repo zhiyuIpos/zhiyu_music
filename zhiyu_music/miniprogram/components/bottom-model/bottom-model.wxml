@@ -1,0 +1,8 @@
+<view class="model" hidden="{{!modelShow}}">
+  <view class="panel">
+    <i class="iconfont icon-shanchu" bindtap="onClose"></i>
+    <!-- slot 插槽-->
+    <slot name="model-content"></slot>
+    <slot name="slot2"></slot>
+  </view>
+</view>

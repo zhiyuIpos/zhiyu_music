@@ -1,0 +1,21 @@
+<view class="ctrl">
+  <view class="ctrl-item" bindtap="onComment">
+    <i class="iconfont icon-comment icon"></i>
+    <text>评论</text>
+  </view>
+  <view class="ctrl-item share">
+    <button open-type="share" data-blogid="{{blogId}}" data-blog="{{blog}}" class="share-btn" hover-class="share-hover">
+      <i class="iconfont icon-fenxiang icon"></i>
+      <text>分享</text>
+    </button>
+  </view>
+</view>
+
+<x-login modelShow="{{loginShow}}" bind:loginsuccess="onLoginSuccess" bind:loginfail="onLoginFail" />
+
+<x-bottom-model modelShow="{{modelShow}}">
+<form slot="model-content" report-submit="true" bindsubmit="onSend">
+  <textarea name="content" class="comment-content" placeholder="写点什么吧" value="{{content}}" fixed="true" maxlength="140" ></textarea>
+  <button class="send"  form-type="submit">发布</button>
+</form>
+</x-bottom-model>

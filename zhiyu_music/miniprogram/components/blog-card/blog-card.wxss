@@ -1,0 +1,55 @@
+/* components/blog-card/blog-card.wxss */
+
+page{
+  background: #f1f1f1;
+}
+.blog{
+  padding:20rpx;
+  background: white;
+}
+
+.blog-title{
+  display: flex;
+}
+
+.blog-box{
+  flex:1;
+}
+
+.blog-time{
+  font-size: 24rpx;
+  color: #ccc;
+}
+
+.blog-portrait{
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.blog-content{
+  margin:20rpx 0;
+}
+
+.blog-img{
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+}
+
+.img{
+  width: 230rpx;
+  height: 230rpx;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.blog-img .img:nth-child(3){
+  margin-right: 0;
+}
+
+.blog-nickName{
+  font-size: 32rpx;
+}
